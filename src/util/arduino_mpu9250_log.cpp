@@ -34,6 +34,8 @@ void logString(char * string)
 
 int _MLPrintLog (int priority, const char* tag, const char* fmt, ...)
 {
+	// suppress errors.
+	return -1;
 }
 
 void eMPL_send_quat(long *quat)
